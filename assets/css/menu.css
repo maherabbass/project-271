@@ -1,112 +1,127 @@
-#offers {
-  padding-top: 120px;
+body {
+  background: #f3f3f3;
+  font-family: "Poppins", sans-serif;
 }
 
-#offers .section-heading {
-  margin-bottom: 70px;
+.menu {
+  padding: 0 10px 30px 10px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-gap: 20px 40px;
 }
 
-#offers .section-heading h6 {
-  padding-left: 0px;
-}
-
-#offers .section-heading h6:before {
-  display: none;
-}
-
-#offers .heading-tabs {
+.heading {
+  background: #e84343;
+  color: #fff;
+  margin-bottom: 30px;
+  padding: 30px 0;
+  grid-column: 1/-1;
   text-align: center;
 }
 
-#offers .heading-tabs .main-dark-button {
-  text-align: right;
+.heading > h1 {
+  font-weight: 400;
+  font-size: 32px;
+  letter-spacing: 10px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
 }
 
-#offers #tabs ul {
-  padding: 0;
+.heading > h3 {
+  font-weight: 600;
+  font-size: 22px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
 }
-#offers #tabs ul li {
+
+.meal {
+  padding-left: 380px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background: #fff;
+}
+
+.meal > ul {
+  list-style-type: none;
+  display: flex;
+}
+
+.meal > ul > li > a {
+  text-align: center;
+  color: black;
+  font-size: 15px;
+  font-weight: 600;
+  text-decoration: none;
   display: inline-block;
   margin: 0px 15px;
-}
-#offers #tabs ul li:last-child {
-  margin-right: 0px;
-}
-#offers #tabs ul li:first-child {
-  margin-left: 0px;
-}
-#offers #tabs ul li a {
+  text-align: center;
   text-transform: capitalize;
   width: 100%;
-  display: inline-block;
-  font-size: 15px;
-  color: #2a2a2a;
-  font-weight: 600;
   transition: all 0.3s;
-  text-align: center;
 }
 
-#offers #tabs ul li a img {
+.meal > ul > li > a > img {
   display: block;
   margin: 0 auto 15px auto;
 }
-#offers #tabs ul .ui-tabs-active a {
-  color: #fb5849;
+
+.food-items {
+  display: grid;
   position: relative;
+  grid-template-rows: auto 1fr;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
+  transition: 0.2s ease-in-out;
 }
-#offers #tabs ul .ui-tabs-active span {
-  color: #1e1e1e;
-}
-#offers .tabs-content {
-  margin-top: 60px;
-  text-align: left;
-  display: flex;
-  transition: all 0.3s;
-}
-#offers .tabs-content .tab-item {
+
+.food-items img {
   position: relative;
-  margin-bottom: 60px;
-}
-#offers .tabs-content img {
-  float: left;
-  width: 100px;
-  max-width: 100px;
-  margin-right: 20px;
-  border-radius: 5px;
-}
-#offers .tabs-content h4 {
-  padding-top: 10px;
-  font-size: 20px;
-  font-weight: 700;
-  color: #2a2a2a;
-  margin-bottom: 10px;
-  margin-right: 100px;
+  width: 100%;
+  height: 200px;
+  border-radius: 15px 15px 0 0;
+  cursor: pointer;
 }
 
-#offers .tabs-content p {
-  margin-right: 100px;
-}
-
-#offers .tabs-content .left-list {
-  margin-right: 15px;
-}
-
-#offers .tabs-content .right-list {
-  margin-left: 15px;
-}
-
-#offers .tabs-content .price h6 {
-  position: absolute;
-  top: 15px;
-  right: 0;
-  width: 70px;
-  height: 70px;
-  background-color: #fb5849;
-  display: inline-block;
+h1 {
+  grid-column: 1/-1;
   text-align: center;
-  line-height: 70px;
-  border-radius: 3px;
+}
+
+.details {
+  padding: 20px 10px;
+  display: grid;
+  grid-template-rows: auto 1fr 50px;
+  grid-row-gap: 15px;
+}
+
+.details-sub > h5 {
+  font-weight: 600;
   font-size: 18px;
-  font-weight: 700;
+}
+
+.price {
+  text-align: right;
+}
+
+.details > p {
+  color: #6f6f6f;
+  font-size: 15px;
+  line-height: 28px;
+  font-weight: 400;
+  align-self: stretch;
+}
+
+.details > button {
+  background: #e84343;
+  border: none;
   color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 5px;
+  width: 180px;
+  cursor: pointer;
+}
+
+.details > button:hover {
+  background-color: #fc0101;
 }
