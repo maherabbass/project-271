@@ -1,0 +1,112 @@
+#offers {
+  padding-top: 120px;
+}
+
+#offers .section-heading {
+  margin-bottom: 70px;
+}
+
+#offers .section-heading h6 {
+  padding-left: 0px;
+}
+
+#offers .section-heading h6:before {
+  display: none;
+}
+
+#offers .heading-tabs {
+  text-align: center;
+}
+
+#offers .heading-tabs .main-dark-button {
+  text-align: right;
+}
+
+#offers #tabs ul {
+  padding: 0;
+}
+#offers #tabs ul li {
+  display: inline-block;
+  margin: 0px 15px;
+}
+#offers #tabs ul li:last-child {
+  margin-right: 0px;
+}
+#offers #tabs ul li:first-child {
+  margin-left: 0px;
+}
+#offers #tabs ul li a {
+  text-transform: capitalize;
+  width: 100%;
+  display: inline-block;
+  font-size: 15px;
+  color: #2a2a2a;
+  font-weight: 600;
+  transition: all 0.3s;
+  text-align: center;
+}
+
+#offers #tabs ul li a img {
+  display: block;
+  margin: 0 auto 15px auto;
+}
+#offers #tabs ul .ui-tabs-active a {
+  color: #fb5849;
+  position: relative;
+}
+#offers #tabs ul .ui-tabs-active span {
+  color: #1e1e1e;
+}
+#offers .tabs-content {
+  margin-top: 60px;
+  text-align: left;
+  display: flex;
+  transition: all 0.3s;
+}
+#offers .tabs-content .tab-item {
+  position: relative;
+  margin-bottom: 60px;
+}
+#offers .tabs-content img {
+  float: left;
+  width: 100px;
+  max-width: 100px;
+  margin-right: 20px;
+  border-radius: 5px;
+}
+#offers .tabs-content h4 {
+  padding-top: 10px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #2a2a2a;
+  margin-bottom: 10px;
+  margin-right: 100px;
+}
+
+#offers .tabs-content p {
+  margin-right: 100px;
+}
+
+#offers .tabs-content .left-list {
+  margin-right: 15px;
+}
+
+#offers .tabs-content .right-list {
+  margin-left: 15px;
+}
+
+#offers .tabs-content .price h6 {
+  position: absolute;
+  top: 15px;
+  right: 0;
+  width: 70px;
+  height: 70px;
+  background-color: #fb5849;
+  display: inline-block;
+  text-align: center;
+  line-height: 70px;
+  border-radius: 3px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #fff;
+}
