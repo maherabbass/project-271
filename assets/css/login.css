@@ -10,18 +10,20 @@ body {
 
 .left {
   width: 30%;
-  background-color: #fb5849;
+  background-color: #840132;
 }
 
 .logo {
   background-color: #fff;
-  padding: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
   display: block;
   margin: auto;
-  margin-top: 30vh;
+  margin-top: 20vh;
 }
 
 .about {
+  color: #fff;
   text-align: center;
   margin-top: 50vh;
 }
@@ -87,14 +89,14 @@ input[type="password"] {
   border: none;
   outline: none;
   height: 40px;
-  background-color: #fb5849;
-  color: #000;
+  background-color: #840132;
+  color: #fff;
   font-size: 18px;
   border-radius: 20px;
 }
 
 .loginbox input[type="submit"]:hover {
   cursor: pointer;
-  background: #e57112;
+  background: #ac2456;
   color: #000;
 }
