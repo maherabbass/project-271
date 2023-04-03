@@ -1,0 +1,313 @@
+{"Items":[
+    { 
+        "itemName":"Croissant Zaatar",
+        "price":"1$",
+        "details":"about this item..",
+        "image1URL":"./assets/images/menu/item1.jfif"
+    },
+    { 
+        "itemName":"Croissant Pizza",
+        "price":"1$",
+        "details":"about this item..",
+        "image1URL":"./assets/images/menu/item1.jfif"
+    },
+    { 
+        "itemName":"Croissant Cheese",
+        "price":"1$",
+        "details":"about this item..",
+        "image1URL":"./assets/images/menu/item1.jfif"
+    },
+    { 
+        "itemName":"Croissant Chocolate",
+        "price":"1$",
+        "details":"about this item..",
+        "image1URL":"./assets/images/menu/item1.jfif"
+    },
+    { 
+        "itemName":"Premium Local Cookies",
+        "price":"1$",
+        "details":"about this item..",
+        "image1URL":"./assets/images/menu/item4.jfif"
+    },
+    { 
+        "itemName":"Chocolate Muffin",
+        "price":"1$",
+        "details":"about this item..",
+        "image1URL":"./assets/images/menu/item5.jfif"
+    },
+    { 
+        "itemName":"Vanilla Muffin",
+        "price":"1$",
+        "details":"about this item..",
+        "image1URL":"x./assets/images/menu/item5.jfif"
+    },
+    { 
+        "itemName":"Fudge Brownie",
+        "price":"1$",
+        "details":"about this item..",
+        "image1URL":"./assets/images/menu/item6.jfif"
+    },
+    { 
+        "itemName":"Saj Zaatar",
+        "price":"2$",
+        "details":"about this item..",
+        "image1URL":"x./assets/images/menu/item8.jfif"
+    },
+    { 
+        "itemName":"Saj Labneh",
+        "price":"2$",
+        "details":"about this item..",
+        "image1URL":"./assets/images/menu/item8.jfif"
+    },
+    { 
+        "itemName":"Saj Cocktail",
+        "price":"2$",
+        "details":"about this item..",
+        "image1URL":"./assets/images/menu/item8.jfif"
+    },
+    { 
+        "itemName":"Saj Peanut Butter",
+        "price":"2$",
+        "details":"about this item..",
+        "image1URL":"./assets/images/menu/item8.jfif"
+    },
+    { 
+        "itemName":"Saj Jebneh",
+        "price":"2$",
+        "details":"about this item..",
+        "image1URL":"./assets/images/menu/item8.jfif"
+    },
+    { 
+        "itemName":"Saj Chocolate",
+        "price":"2$",
+        "details":"about this item..",
+        "image1URL":"./assets/images/menu/item8.jfif"
+    },
+    { 
+        "itemName":"Saj Labneh",
+        "price":"2$",
+        "details":"about this item..",
+        "image1URL":"./assets/images/menu/item8.jfif"
+    },
+    { 
+        "itemName":"Halloumi Sandwich",
+        "price":"3$",
+        "details":"about this item..",
+        "image1URL":"./assets/images/menu/item3.jfif"
+    },
+    { 
+        "itemName":"Turkey & Cheese Shandwich",
+        "price":"3$",
+        "details":"about this item..",
+        "image1URL":"./assets/images/menu/item3.jfif"
+    },
+    { 
+        "itemName":"Chicken Sandwich",
+        "price":"3$",
+        "details":"about this item..",
+        "image1URL":"./assets/images/menu/item3.jfif"
+    },
+    { 
+        "itemName":"Tuna Sandwich",
+        "price":"3$",
+        "details":"about this item..",
+        "image1URL":"./assets/images/menu/item3.jfif"
+    },
+    { 
+        "itemName":"Crab Sandwich",
+        "price":"3$",
+        "details":"about this item..",
+        "image1URL":"./assets/images/menu/item3.jfif"
+    },
+    { 
+        "itemName":"Chicken Montana",
+        "price":"3$",
+        "details":"about this item..",
+        "image1URL":"./assets/images/menu/item3.jfif"
+    },
+    { 
+        "itemName":"Greek Salad",
+        "price":"3$",
+        "details":"about this item..",
+        "image1URL":"./assets/images/menu/item7.jfif"
+    },
+    { 
+        "itemName":"Crab Salad",
+        "price":"3$",
+        "details":"about this item..",
+        "image1URL":"./assets/images/menu/item7.jfif"
+    },
+    { 
+        "itemName":"Tuna Salad",
+        "price":"3$",
+        "details":"about this item..",
+        "image1URL":"./assets/images/menu/item7.jfif"
+    },
+    { 
+        "itemName":"Espresso Single",
+        "price":"1$",
+        "details":"about this item..",
+        "image1URL":"./assets/images/menu/item9.jfif"
+    },
+    { 
+        "itemName":"Espresso Macchiato",
+        "price":"1$",
+        "details":"about this item..",
+        "image1URL":"./assets/images/menu/item9.jfif"
+    },
+    { 
+        "itemName":"Espresso Double",
+        "price":"1.5$",
+        "details":"about this item..",
+        "image1URL":"./assets/images/menu/item9.jfif"
+    },
+    { 
+        "itemName":"Cafe Latte Small",
+        "price":"2$",
+        "details":"about this item..",
+        "image1URL":"./assets/images/menu/item10.jfif"
+    },
+    { 
+        "itemName":"Cafe Latte Medium",
+        "price":"3$",
+        "details":"about this item..",
+        "image1URL":"./assets/images/menu/item10.jfif"
+    },
+    { 
+        "itemName":"Iced Mocha Small",
+        "price":"2$",
+        "details":"about this item..",
+        "image1URL":"./assets/images/menu/item11.jfif"
+    },
+    { 
+        "itemName":"Iced Mocha Medium",
+        "price":"3$",
+        "details":"about this item..",
+        "image1URL":"./assets/images/menu/item11.jfif"
+    },
+    { 
+        "itemName":"Americano Small",
+        "price":"2$",
+        "details":"about this item..",
+        "image1URL":"./assets/images/menu/item13.jfif"
+    },
+    { 
+        "itemName":"Americano Medium",
+        "price":"3$",
+        "details":"about this item..",
+        "image1URL":"./assets/images/menu/item13.jfif"
+    },{ 
+        "itemName":"Capuccino Small",
+        "price":"2$",
+        "details":"about this item..",
+        "image1URL":"./assets/images/menu/item12.jfif"
+    },
+    { 
+        "itemName":"Capuccino Medium",
+        "price":"3$",
+        "details":"about this item..",
+        "image1URL":"./assets/images/menu/item12.jfif"
+    },
+    { 
+        "itemName":"Bagel Chioco",
+        "price":"3$",
+        "details":"about this item..",
+        "image1URL":"./assets/images/menu/item14.jfif"
+    },
+    { 
+        "itemName":"Bagel Fetta",
+        "price":"3$",
+        "details":"about this item..",
+        "image1URL":"./assets/images/menu/item14.jfif"
+    },
+    { 
+        "itemName":"Bagel Halloum",
+        "price":"3$",
+        "details":"about this item..",
+        "image1URL":"./assets/images/menu/item14.jfif"
+    },
+    { 
+        "itemName":"Bagel Jam Butter",
+        "price":"3$",
+        "details":"about this item..",
+        "image1URL":"./assets/images/menu/item14.jfif"
+    },
+    { 
+        "itemName":"Bagel Labneh",
+        "price":"3$",
+        "details":"about this item..",
+        "image1URL":"./assets/images/menu/item14.jfif"
+    },
+    { 
+        "itemName":"Bagel Peanut Butter",
+        "price":"3$",
+        "details":"about this item..",
+        "image1URL":"./assets/images/menu/item14.jfif"
+    },
+    { 
+        "itemName":"Bagel Philadephia & Jam",
+        "price":"3$",
+        "details":"about this item..",
+        "image1URL":"./assets/images/menu/item14.jfif"
+    },
+    { 
+        "itemName":"Bagel Philadephia Cheese",
+        "price":"3$",
+        "details":"about this item..",
+        "image1URL":"./assets/images/menu/item14.jfif"
+    },
+    { 
+        "itemName":"Water",
+        "price":"1$",
+        "details":"about this item..",
+        "image1URL":"./assets/images/menu/item15.jfif"
+    },
+    { 
+        "itemName":"Chips",
+        "price":"1$",
+        "details":"about this item..",
+        "image1URL":"./assets/images/menu/item17.jfif"
+    },
+    { 
+        "itemName":"Peanuts",
+        "price":"1$",
+        "details":"about this item..",
+        "image1URL":"./assets/images/menu/item16.jfif"
+    },
+    { 
+        "itemName":"Cashew",
+        "price":"1$",
+        "details":"about this item..",
+        "image1URL":"./assets/images/menu/item16.jfif"
+    },
+    { 
+        "itemName":"Bake Rolls",
+        "price":"1$",
+        "details":"about this item..",
+        "image1URL":"./assets/images/menu/item18.jfif"
+    },
+    { 
+        "itemName":"Rim Sparkling Water",
+        "price":"1$",
+        "details":"about this item..",
+        "image1URL":"./assets/images/menu/item19.jfif"
+    },
+    { 
+        "itemName":"Pepsi-Miranda-7UP",
+        "price":"1$",
+        "details":"about this item..",
+        "image1URL":"./assets/images/menu/item22.jfif"
+    },
+    { 
+        "itemName":"Dark Blue",
+        "price":"1$",
+        "details":"about this item..",
+        "image1URL":"./assets/images/menu/item20.jfif"
+    },
+    { 
+        "itemName":"Laban Ayran",
+        "price":"1$",
+        "details":"about this item..",
+        "image1URL":"./assets/images/menu/item21.jfif"
+    }
+]}
