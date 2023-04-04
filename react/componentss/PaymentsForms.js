@@ -2,6 +2,26 @@ import React, { useState } from "react";
 import { CardElement, useElements, useStripe } from "@stripe/react-stripe-js";
 import axios from "axios";
 
+const CARD_OPTIONS = {
+  iconStyle: "solid",
+  style: {
+    base: {
+      iconColor: "#c4f0ff",
+      color: "#fff",
+      fontWeight: 500,
+      fontFamily: "Roboto, Open Sans, Segoe UI, sans-serif",
+      fontSize: "16px",
+      fontSmoothing: "antialiased",
+      ":-webkit-autofill": { color: "#fce883" },
+      "::placeholder": { color: "#87bbfd" },
+    },
+    invalid: {
+      iconcolor: "#ffc7ee",
+      color: "#ffc7ee",
+    },
+  },
+};
+
 export default function PaymentForm() {
   const [success, setSuccess] = useState(false);
   const stripe = useStripe();
@@ -33,14 +53,23 @@ export default function PaymentForm() {
       console.log(error.message);
     }
   };
-  
+
   return (
     <>
-    {!success ? 
-    <form onSubmit={handleSubmit}>
-        <fieldset className="FormGroup"></fieldset>
-    </form>
-    }
+      {!success ? (
+        <form onSubmit={handleSubmit}>
+          <fieldset className="FormGroup">
+            <div className="FormRow">
+              <CardElement options={CARD_OPTIONS} />
+            </div>
+          </fieldset>
+          <button>Pay</button>
+        </form>
+      ) : (
+        <div>
+          <h2>You just bought an item...</h2>
+        </div>
+      )}
     </>
-  )
+  );
 }
