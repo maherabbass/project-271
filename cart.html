@@ -9,7 +9,7 @@
   </head>
   <body>
     <!------ cart items details ------>
-    <div class="samll-container">
+    <div class="small-container">
       <table>
         <tr>
           <th>Item</th>
@@ -27,7 +27,13 @@
               </div>
             </div>
           </td>
-          <td><input type="number" value="1" /></td>
+          <td>
+            <div class="quantity-counter">
+              <button id="counter-decrement" class="decrement">-</button>
+              <input id="counter-value" class="value" type="number" value="0" />
+              <button id="counter-increment" class="increment">+</button>
+            </div>
+          </td>
           <td>$50.00</td>
         </tr>
         <tr>
@@ -41,7 +47,13 @@
               </div>
             </div>
           </td>
-          <td><input type="number" value="1" /></td>
+          <td>
+            <div class="quantity-counter">
+              <button id="counter-decrement" class="decrement">-</button>
+              <input id="counter-value" class="value" type="number" value="0" />
+              <button id="counter-increment" class="increment">+</button>
+            </div>
+          </td>
           <td>$50.00</td>
         </tr>
         <tr>
@@ -55,7 +67,13 @@
               </div>
             </div>
           </td>
-          <td><input type="number" value="1" /></td>
+          <td>
+            <div class="quantity-counter">
+              <button id="counter-decrement" class="decrement">-</button>
+              <input id="counter-value" class="value" type="number" value="0" />
+              <button id="counter-increment" class="increment">+</button>
+            </div>
+          </td>
           <td>$50.00</td>
         </tr>
       </table>
@@ -67,6 +85,10 @@
             <td>$200</td>
           </tr>
         </table>
+      </div>
+      <div class="container">
+        <button id="checkout" class="end">Checkout</button>
+        <button id="continue" class="end">Add More</button>
       </div>
     </div>
   </body>

@@ -1,5 +1,5 @@
 body {
-  margin: 80px auto;
+  margin: 10px auto;
 }
 
 table {
@@ -51,7 +51,7 @@ td img {
 .total-price table {
   border-top: 3px solid #840132;
   width: 100%;
-  max-width: 400px;
+  max-width: 300px;
 }
 
 td:last-child {
@@ -60,4 +60,55 @@ td:last-child {
 
 th:last-child {
   text-align: right;
+}
+
+.quantity-counter {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-left: -160px;
+}
+
+.quantity-counter > button {
+  width: 30px;
+  height: 30px;
+  margin: 5px;
+  border-radius: 5px;
+  border-style: hidden;
+  color: #fff;
+  background: #840132;
+}
+
+.quantity-counter > button:hover {
+  background-color: #d21c5f;
+}
+
+.quantity-counter > input {
+  width: 20px;
+  height: 18px;
+  margin-top: 5px;
+}
+
+.quantity-counter > input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.container {
+  text-align: center;
+}
+
+.end {
+  width: 200px;
+  height: 40px;
+  color: #fff;
+  background: #840132;
+  border-radius: 7px;
+  margin: 20px;
+  margin-top: 50px;
+}
+
+.end:hover {
+  background: #d21c5f;
 }

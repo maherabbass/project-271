@@ -48,7 +48,7 @@ body {
 
 .meal > ul > li > a {
   text-align: center;
-  color: black;
+  color: #840132;
   font-size: 15px;
   font-weight: 600;
   text-decoration: none;
@@ -94,21 +94,59 @@ h1 {
   grid-row-gap: 15px;
 }
 
+.details-sub {
+  display: flex;
+}
+
 .details-sub > h5 {
   font-weight: 600;
   font-size: 18px;
 }
 
 .price {
-  text-align: right;
+  margin-left: 280px;
 }
 
 .details > p {
+  margin-top: -30px;
   color: #6f6f6f;
   font-size: 15px;
   line-height: 28px;
   font-weight: 400;
   align-self: stretch;
+}
+
+.quantity-counter {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.quantity-counter > button {
+  width: 30px;
+  height: 30px;
+  margin: 5px;
+  border-radius: 5px;
+  border-style: hidden;
+  color: #fff;
+  background: #840132;
+}
+
+.quantity-counter > button:hover {
+  background-color: #d21c5f;
+}
+
+.quantity-counter > input {
+  text-align: center;
+  width: 20px;
+  height: 25px;
+  margin-top: 5px;
+}
+
+.quantity-counter > input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }
 
 .details > button {
@@ -118,10 +156,13 @@ h1 {
   font-size: 16px;
   font-weight: 600;
   border-radius: 5px;
-  width: 180px;
+  width: 300px;
+  height: 30px;
   cursor: pointer;
+  margin-left: 30px;
+  margin-top: -20px;
 }
 
 .details > button:hover {
-  background-color: #840132;
+  background-color: #d21c5f;
 }
