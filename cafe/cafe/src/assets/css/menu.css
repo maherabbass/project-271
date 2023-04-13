@@ -1,6 +1,7 @@
 .body {
   background: #f3f3f3;
   font-family: "Poppins", sans-serif;
+  display: contents;
 }
 
 .menu {
@@ -11,6 +12,7 @@
 }
 
 .heading {
+  width:100vw;
   background: #840132;
   color: #fff;
   margin-bottom: 30px;

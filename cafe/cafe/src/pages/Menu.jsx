@@ -1,5 +1,7 @@
 import React from "react";
+import "bootstrap/dist/css/bootstrap.min.css";
 import "../assets/css/menu.css";
+import { Container } from "react-bootstrap";
 
 import icon1 from "../assets/images/tab-icon-01.png";
 import icon2 from "../assets/images/tab-icon-02.png";

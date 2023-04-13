@@ -1,0 +1,145 @@
+body {
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+/* NavBar Styling */
+
+.nav {
+  margin: inherit;
+  margin-left: 0;
+  padding: inherit;
+  width: 100vw;
+  height: 20vh;
+  background-color: #840132;
+}
+
+.title {
+  font-family: "Dosis";
+  color: #fff;
+  margin: auto;
+}
+
+.cart {
+  margin: auto;
+  margin-right: 50px;
+  background-color: #fff;
+  color: #840132;
+  border: 2px solid #fff;
+}
+
+.cart:hover {
+  background-color: #d21c5f;
+  border: 2px solid #fff;
+}
+
+/* Item Card Styling */
+
+.cardBody {
+  display: flex;
+  flex-direction: column;
+}
+
+.itemImage {
+  width: 200px;
+  height: 200px;
+  margin: auto;
+  margin-top: 10px;
+  border-radius: 20%;
+}
+
+.itemDetails {
+  margin-top: 15px;
+  margin-left: 10px;
+  display: flex;
+}
+
+.price {
+  margin-left: auto;
+  margin-right: 10px;
+}
+
+.quantity-counter .quantity {
+  margin-left: -50px;
+}
+
+.quantity-counter .smallButton {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  line-height: 8px;
+  position: relative;
+}
+
+.bigButton {
+  text-align: center;
+  width: 200px;
+  margin: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  background-color: #840132;
+  border: 2px solid #fff;
+}
+
+.bigButton:hover {
+  background-color: #d21c5f;
+  border: 2px solid #fff;
+}
+
+.cardBack {
+  color: #fff;
+  background-color: #840132;
+  height: 375px;
+  border-radius: 2%;
+}
+
+.cardBack p {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.flipButton {
+  margin-left: 5px;
+  width: 35px;
+  height: 0px;
+  border-radius: 50%;
+  padding: 12px;
+  text-align: center;
+  line-height: 2px;
+  background-color: #840132;
+  color: #fff;
+  border: 2px solid #fff;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.flipButtonBack {
+  margin-top: 230px;
+  width: 35px;
+  height: 0px;
+  border-radius: 50%;
+  padding: 12px;
+  text-align: center;
+  line-height: 2px;
+  background-color: #fff;
+  color: #840132;
+  border: 2px solid #fff;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.flipButton:hover {
+  background-color: #d21c5f;
+  border: 2px solid #fff;
+}
+
+.flipButtonBack:hover {
+  background-color: #d21c5f;
+  border: 2px solid #840132;
+}
+
+/* Cart Item Styling (Item in the cart) */
+.cartItem {
+  background-color: #840132;
+}
