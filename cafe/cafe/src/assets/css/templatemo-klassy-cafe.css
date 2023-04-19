@@ -314,7 +314,7 @@ header
 .header-area .main-nav {
   position: fixed;
   width: 100vw;
-  min-height: 80px;
+  max-height: 100px;
   background-color: rgba(255, 255, 255, 0.7);
 }
 
@@ -330,7 +330,8 @@ header
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
-  margin-left: 0;
+  margin-left: -25px;
+  margin-top: -5px;
 }
 
 .background-header .main-nav .logo {
@@ -344,7 +345,7 @@ header
 .header-area .main-nav .nav {
   float: right;
   margin-top: 30px;
-  margin-right: 0px;
+  margin-right: 400px;
   background-color: transparent;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
@@ -355,7 +356,7 @@ header
 }
 
 .header-area .main-nav .nav li {
-  padding-left: 15px;
+  padding-left: 28px;
   padding-right: 15px;
 }
 
@@ -728,13 +729,13 @@ banner
 }
 
 #top .left-content {
-  background-image: url(../images/top-left-bg.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
   width: 100%;
   height: 100%;
+  background-color: #840132;
 }
 
 #top .left-content .inner-content {
@@ -747,11 +748,14 @@ banner
 #top .left-content h4 {
   font-family: "Dancing Script", cursive;
   color: #fff;
-  font-size: 54px;
+  font-size: 34px;
   font-weight: 700;
+  margin-left: 34px;
+  margin-bottom: 15px;
 }
 
 #top .left-content h6 {
+  font-family: "Dancing Script", cursive;
   font-size: 15px;
   text-transform: uppercase;
   font-weight: 600;
@@ -763,10 +767,12 @@ banner
 #top .left-content .main-white-button {
   margin-top: 25px;
   margin-bottom: 10px;
+  margin-left: 20px;
 }
 
 #top .left-content .main-white-button a {
   display: inline-block;
+  margin-left: 10px;
 }
 
 /* ==== Main CSS === */
@@ -1592,8 +1598,8 @@ footer
 */
 
 footer {
-  margin-top: 60px;
-  padding: 50px 0px;
+  margin-top: 40px;
+  padding-top: 50px;
   background-color: #840132;
 }
 
@@ -1613,11 +1619,14 @@ footer .right-text-content p {
 
 footer .right-text-content {
   text-align: left;
-  margin-top: 10px;
+  margin-top: 0px;
 }
 
 footer .logo {
   text-align: center;
+  margin-top: -15px;
+  margin-bottom: 100px;
+  background-color: #840132;
 }
 
 footer .right-text-content ul li {
@@ -1625,7 +1634,7 @@ footer .right-text-content ul li {
   margin-left: 15px;
 }
 footer .right-text-content ul li:first-child {
-  margin-left: 0px;
+  margin-left: 15px;
 }
 
 footer .right-text-content ul li a {
